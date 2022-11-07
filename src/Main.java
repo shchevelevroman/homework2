@@ -58,14 +58,14 @@ public class Main {
 
         //Задача №8.1
         var totalTimeWork = 640;
-        var timeworker = 8;
-        var totalWorker = totalTimeWork / timeworker;
+        var timeWorker = 8;
+        var totalWorker = totalTimeWork / timeWorker;
         System.out.println("Всего работников компании - " + totalWorker + " человек");
 
         //Задача №8.2
         var totalWorkerPlus = totalWorker + 94;
-        var timeWorkerPlus = totalTimeWork / totalWorkerPlus;
-        System.out.println("Если в компании работает " + totalWorkerPlus + " человек, то всего " + timeWorkerPlus + " часов работы может быть поделеномежду сотрудниками");
+        var timeWorkerPlus = totalWorkerPlus * timeWorker;
+        System.out.println("Если в компании работает " + totalWorkerPlus + " человек, то всего " + timeWorkerPlus + " часа работы может быть поделено между сотрудниками");
 
 
 
